@@ -1,4 +1,4 @@
-function MyPerfectTeam(n, candidates) {
+function myPerfectTeam(n, candidates) {
   if([...new Set(candidates.flat())].length !== n) return -1;
 
   // transform to array to object for the counting purposes;
